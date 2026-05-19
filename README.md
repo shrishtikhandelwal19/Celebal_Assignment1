@@ -13,48 +13,12 @@ This repository contains scripts and datasets for analyzing product data from an
 ## 📁 Project Structure
 
 ```
-celebal_assignment1/
-├── codes/
-│   └── code.ipynb              # Main Jupyter notebook for data analysis and cleaning
-├── 1stweek_dataset/
-│   ├── Combined_dataset.csv    # Consolidated dataset from all categories
-│   ├── final_cleaned_dataset.csv # Final cleaned and processed dataset
-│   └── [category-specific CSV files] # Individual product category datasets
-└── README.md                   # This file
+│-----code.ipynb                      # Main Jupyter notebook for data analysis and cleaning
+├-----summary                         #summary of assignment
+│-----original_dataset.csv            # Consolidated dataset from all categories
+│-----final_cleaned_dataset.csv       # Final cleaned and processed dataset 
+└-----README.md                       # This file
 ```
-
-## 📊 Dataset Details
-
-### Available Categories
-
-The dataset includes products from multiple categories including but not limited to:
-- **Clothing**: Dresses, Shirts, T-shirts, Jeans, Kurtas, Sarees, etc.
-- **Footwear**: Shoes, Sandals, Boots, Heels, Flats, etc.
-- **Accessories**: Watches, Jewelry, Handbags, Scarves, Sunglasses, etc.
-- **Home & Living**: Bedsheets, Towels, Curtains, Rugs, Chair Covers, etc.
-- **Beauty & Personal Care**: Lipstick, Foundation, Shampoo, Face Wash, etc.
-- **Others**: Mobile Accessories, Headphones, Sports Equipment, etc.
-
-### Data Columns
-
-Each dataset contains the following fields:
-- `product_id`: Unique product identifier
-- `title`: Product name/title
-- `product_description`: Detailed product description
-- `rating`: Product rating (1-5)
-- `ratings_count`: Number of customer ratings
-- `initial_price`: Original price
-- `discount`: Discount percentage
-- `final_price`: Final selling price (after discount)
-- `currency`: Currency (INR)
-- `images`: Product image URLs
-- `seller_name`: Name of the seller
-- `sizes`: Available sizes
-- `best_offer`: Best promotional offer
-- `more_offers`: Additional offers
-- `category`: Product category
-- Additional metadata fields
-
 ## 🛠️ Tools & Libraries
 
 - **Python 3.x**
@@ -105,36 +69,6 @@ jupyter notebook
 - ✅ Exploratory data analysis (EDA)
 - ✅ Data visualization and statistical summaries
 - ✅ Processed and cleaned dataset export
-
-## 📊 Sample Analysis
-
-The notebook includes:
-- Data shape and structure analysis
-- Missing value identification and treatment
-- Statistical summaries (mean, median, count, etc.)
-- Category-wise distribution analysis
-- Price and discount analysis
-- Rating distribution and customer feedback analysis
-
-## 📥 Dataset Files
-
-- **Combined_dataset.csv**: Contains all products merged from individual category files
-- **final_cleaned_dataset.csv**: Production-ready cleaned dataset with no missing values
-- **Individual Category CSVs** (70+): Separate datasets for each product category
-
-## 🔍 Data Quality
-
-- Total Categories: 70+
-- Data Points: Multiple product attributes
-- Missing Values: Handled through cleaning process
-- Duplicates: Removed during consolidation
-
-## 📝 Notes
-
-- Some sensitive information (seller names, addresses) may be partially masked in raw data
-- Prices are in INR (Indian Rupees)
-- Dates and temporal information may vary across products
-- Data represents snapshot from e-commerce platform
 
 ## 🤝 Contributing
 
