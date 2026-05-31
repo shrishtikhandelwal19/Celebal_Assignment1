@@ -1,0 +1,96 @@
+# Brief Report - Assignment 2: SQL Sales Data Analysis
+
+## Objective
+
+The objective of this assignment was to analyze sales data using SQL by applying filtering, aggregation, sorting, and business-oriented analytical queries. The analysis was performed on the Superstore Dataset obtained from Kaggle.
+
+## Dataset Information
+
+* Dataset Name: Superstore Dataset
+* Source: Kaggle
+* Records Imported: 9,694
+* Database Used: MySQL
+* Tool Used: MySQL Workbench
+
+## Tasks Performed
+
+### 1. Data Loading and Exploration
+
+* Imported the Superstore CSV dataset into MySQL.
+* Explored the table structure using schema inspection queries.
+* Reviewed sample records to understand the dataset.
+
+### 2. Data Validation
+
+* Checked total number of records.
+* Verified unique orders.
+* Identified duplicate records and validated data quality.
+
+### 3. Filtering with WHERE Clause
+
+Applied filters based on:
+
+* Region
+* Category
+* Sales values
+* Discount values
+* Customer segments
+
+### 4. Aggregation using GROUP BY
+
+Performed aggregations to analyze:
+
+* Total sales by category
+* Total sales by region
+* Average sales by category
+* Total quantity sold
+* Total profit by region
+
+### 5. Sorting and Ranking
+
+Used ORDER BY and LIMIT to identify:
+
+* Top-selling products
+* Most profitable categories
+* Top customers based on sales
+
+### 6. Business Analysis Queries
+
+Performed business-focused analysis including:
+
+* Monthly sales trends
+* Monthly profit trends
+* Region-wise performance
+* Customer-wise sales analysis
+* Product performance analysis
+
+### 7. Data Quality Checks
+
+* Checked for missing values.
+* Identified duplicate records.
+* Verified record counts across categories and regions.
+
+## Key Findings
+
+* Technology category generated the highest sales revenue.
+* A small number of customers contributed significantly to total sales.
+* Certain orders resulted in negative profit due to discounts.
+* Sales and profit varied across regions.
+* Monthly trend analysis revealed fluctuations in business performance throughout the year.
+
+## SQL Concepts Used
+
+* SELECT
+* WHERE
+* GROUP BY
+* HAVING
+* ORDER BY
+* LIMIT
+* Aggregate Functions (SUM, AVG, COUNT)
+* DISTINCT
+* Date Functions
+* Data Validation Queries
+
+## Conclusion
+
+This assignment demonstrated the practical use of SQL for business data analysis. The Superstore dataset was successfully analyzed using filtering, aggregation, trend analysis, and validation techniques. The results provided valuable insights into sales performance, customer behavior, product performance, and regional trends.
